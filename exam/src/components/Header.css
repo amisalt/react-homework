@@ -1,0 +1,60 @@
+header{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  background-color: rgb(238, 238, 203);
+  border-bottom: 3px solid black;
+}
+header section, .modal section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.modal li > section{
+  gap: 15px;
+}
+header .logo{
+  width: 100px;
+}
+.modal{
+  position: fixed;
+  top: 200px;
+  left: calc(50vw - 365px);
+  width: 700px;
+  min-height: 100px;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 203);
+  gap: 5px;
+}
+.modal .closeButton{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.modal ul{
+  list-style: none;
+  width: 90%;
+}
+.modal li{
+  border-bottom: 0.5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 10px;
+}

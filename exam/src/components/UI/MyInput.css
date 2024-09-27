@@ -1,0 +1,16 @@
+.MyInput{
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: beige;
+    font-style: italic;
+    transition: .1s;
+}
+.MyInput:hover{
+    background-color: rgb(230, 230, 189);
+}
+.MyInput:focus{
+    background-color: rgb(202, 202, 140);
+}
